@@ -1,0 +1,270 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Promo Spéciale - Cours de Basse</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 900px;
+    padding: 60px 20px;
+    animation: fadeIn 1.2s ease;
+}
+
+/* Image centrale */
+.promo-image {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(255, 102, 0, 0.3);
+    transition: transform 0.6s ease;
+}
+
+.promo-image:hover {
+    transform: scale(1.03);
+}
+
+/* Paragraphe animé */
+.promo-text {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.8;
+    opacity: 0;
+    transform: translateX(-60px);
+    animation: slideText 1.5s ease forwards;
+    animation-delay: 0.5s;
+}
+
+/* Boutons */
+.cta-button {
+    margin-top: 40px;
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #ff6600, #ff3300);
+    color: #fff;
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 30px rgba(255, 80, 0, 0.4);
+}
+
+.cta-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(255, 80, 0, 0.6);
+}
+
+/* Section formations */
+.formations-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.formations-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.formations-list {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    text-align: left;
+}
+
+.formations-list li {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.formations-list li::before {
+    content: "🎸";
+    position: absolute;
+    left: 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    padding: 30px 20px;
+    width: 100%;
+    background: #111;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideText {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .promo-text {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .formations-list {
+        text-align: left;
+    }
+
+    footer {
+        font-size: 0.85rem;
+    }
+
+    footer a {
+        margin: 0 5px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Image -->
+    <img src="https://ik.imagekit.io/basspro/ultra.oto2.png" alt="Promo spéciale basse" class="promo-image">
+
+    
+     <!-- Bouton principal -->
+    <a href="https://www.paypal.com/ncp/payment/T2BS5JBTM3L5Y" target="_blank">
+    <button class="cta-button">
+        clique ici pour recevoir ces 5 formations
+    </button>
+    </a>
+    
+    <!-- Paragraphe -->
+    <p class="promo-text">
+
+        <h3>C'est une offre unique si tu quittes la page tu ne la verras jamais plus</h3>
+       <br> je t'offre 5 FORMATIONS de ton choix pour t'aider à devenir un très bon bassiste
+       rapidement, <b></b>  
+       <br>pour recevoir la formation envoi par wave ou orange money <br><B>+225 07 08 40 00 27</B> si tu es en Afrique 
+    </p>
+
+
+
+    <!-- Bouton principal -->
+    <a href="https://www.paypal.com/ncp/payment/T2BS5JBTM3L5Y" target="_blank">
+    <button class="cta-button">
+        clique ici pour recevoir ces 5 formations
+    </button>
+    </a>
+
+    <!-- Section formations -->
+    <section class="formations-section">
+
+        <h3>Formations incluses dans l'offre :</h3>
+
+        <ul class="formations-list">
+            <li><b>FORMATION 1 :  Comment jouer les accords à la guitare basse comme les pros </b></li>
+            <li><b>FORMATION 2 : Comment maîtriser le manche de la guitare basse en 10 minutes</b></li>
+            <li><b>FORMATION 3 : Maîtrisez en 20 minutes les gammes (modes) à la guitare basse </b></li>
+            <li><b>FORMATION 4 : Comment jouer les rythmes africains, la louange ET faire danser les gens</b></li>
+            <li><b>FORMATION 5 : Comment jouer au gospel( l'adoration) en 10 minutes même si tu es un débutant</b></li>
+            <li><b>FORMATION 6 : La méthode facile développer ton oreille musicale et réproduire tous les sons que tu entends </b></li>
+            <li><b>FORMATION 7 : Comment faire le slap en 10 minutes top chrono</b> </li>
+            <li><b>FORMATION 8 : Comment utiliser la gamme pentatonique et faire de jolis solo </b></li>
+            <li><b>FORMATION 9 : On apprend ensemble le kompa et du zouk ce soir ?</b></li>
+            <li><b>FORMATION 10 : Une astuce pour jouer du reggae et créer des lignes de basse legendaires</b></li>
+            <li><b>FORMATION 11 : 100 lignes de basse pour la louange l'adoration, la musique Africaine , le kompa ou le zouk </b></li>
+        </ul>
+
+        <a href="https://www.paypal.com/ncp/payment/T2BS5JBTM3L5Y" target="_blank">
+        <button class="cta-button">
+        clique ici pour recevoir ces 5 formations
+    </button>
+</a>
+
+    </section>
+
+</div>
+
+
+<p class="promo-text">
+       <h3>une question ? écris-moi au +33769696285</h3> <br>
+       <i>après ton achat tu pourras choisir les meilleures formations que tu veux</i>
+    </p>
+
+
+<!-- Footer avec liens cliquables -->
+<footer>
+    <div>
+
+             <a href="#">non merci </a> 
+<br>
+<br>
+<br>
+        <a href="https://abrahamberne1.github.io/ultrabasse/music/mentionlegale">Mentions légales</a> | 
+        <a href="https://abrahamberne1.github.io/ultrabasse/music/mentionlegale">Politique de confidentialité</a> | 
+        <a href="https://abrahamberne1.github.io/ultrabasse/music/mentionlegale">Contact</a>
+    </div>
+    <div hidden>© 2026 - Cours de Basse | Tous droits réservés</div>
+
+
+</body>
+</html>
